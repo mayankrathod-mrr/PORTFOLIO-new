@@ -65,7 +65,7 @@ Make sure you have Node.js (version 18.x or later) and npm installed on your mac
 Installation
 Clone the repository:
 
-git clone [https://github.com/your-username/my-portfolio.git](https://github.com/your-username/my-portfolio.git)
+git clone (https://github.com/mayankrathod-mrr/PORTFOLIO-new))
 
 Navigate to the project directory:
 
