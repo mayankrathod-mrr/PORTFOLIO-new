@@ -56,19 +56,19 @@ const Skills = () => {
             </div>
           </div>
           <div>
-            <h3 className="text-3xl font-bold text-gray-700 mb-6 text-center md:text-left">⚙️ Backend</h3>
+            <h3 className="text-3xl font-bold text-gray-700 mb-6 text-center md:text-left">Backend</h3>
             <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
               {backendSkills.map((skill) => <SkillCard key={skill.name} {...skill} />)}
             </div>
           </div>
           <div>
-            <h3 className="text-3xl font-bold text-gray-700 mb-6 text-center md:text-left">💾 Databases</h3>
+            <h3 className="text-3xl font-bold text-gray-700 mb-6 text-center md:text-left">Databases</h3>
             <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
               {databaseSkills.map((skill) => <SkillCard key={skill.name} {...skill} />)}
             </div>
           </div>
           <div>
-            <h3 className="text-3xl font-bold text-gray-700 mb-6 text-center md:text-left">🛠️ Deployment & Tools</h3>
+            <h3 className="text-3xl font-bold text-gray-700 mb-6 text-center md:text-left">Deployment & Tools</h3>
             <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
               {deploymentAndTools.map((skill) => <SkillCard key={skill.name} {...skill} />)}
             </div>
