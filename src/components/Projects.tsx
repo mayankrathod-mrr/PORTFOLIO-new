@@ -12,7 +12,7 @@ type ProjectCardProps = {
   image: string;
   tags: string[];
   githubLink: string;
-  liveLink?: string; // <-- FIX: Made liveLink optional with a '?'
+  liveLink?: string; // Made liveLink optional
   isReversed?: boolean;
 };
 
@@ -37,7 +37,7 @@ const ProjectCard = ({ title, description, image, tags, githubLink, liveLink, is
             <Link href={githubLink} target="_blank" className="text-white hover:text-blue-400">
               <FaGithub size={40} />
             </Link>
-            {/* FIX: The live link icon will only show if a liveLink is provided */}
+            {/* The live link icon will only show if a liveLink is provided */}
             {liveLink && (
               <Link href={liveLink} target="_blank" className="text-white hover:text-blue-400">
                 <FaExternalLinkAlt size={36} />
@@ -112,7 +112,7 @@ const Projects = () => {
     <section id="projects" className="py-24 bg-white">
       <div className="container mx-auto px-6">
         <h2 className="text-5xl font-bold text-center text-gray-800 mb-20">
-          Things I've Built
+          Things I&apos;ve Built
         </h2>
         <div className="space-y-24">
           {projectsData.map((project, index) => (

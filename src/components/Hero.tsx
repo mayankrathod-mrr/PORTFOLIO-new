@@ -12,10 +12,9 @@ const Hero = () => {
             Hi, I&apos;m <span className="text-blue-500">Mayank Rathod</span>
           </h1>
           <p className="text-xl md:text-2xl text-gray-700 mb-8">
-            I’m a passionate Java Backend & Full Stack Developer with expertise in Java, Spring Boot, Next.js, PostgreSQL, and Docker, focused on building scalable backend systems and modern full-stack applications.
+            I&apos;m a passionate Java Backend & Full Stack Developer with expertise in Java, Spring Boot, Next.js, PostgreSQL, and Docker, focused on building scalable backend systems and modern full-stack applications.
           </p>
           
-          {/* --- THIS IS THE CORRECTED BUTTONS SECTION --- */}
           <div className="flex flex-col sm:flex-row items-center justify-center md:justify-start gap-4">
             <Link 
               href="#projects" 
