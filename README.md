@@ -5,7 +5,7 @@
 Welcome to the repository of my personal portfolio website!  
 This project is a modern, responsive, and professional platform designed to showcase my **skills, projects, and journey as a Full-Stack Developer**. It’s built using cutting-edge technologies to ensure **performance, responsiveness, and great user experience**.
 
-🔗 **Live Demo:** [your-portfolio-url.com](#) <!-- TODO: Replace with your actual deployed URL -->
+🔗 **Live Demo:** [https://mayank-portfolio-new.vercel.app/]
 
 ---
 
