@@ -75,7 +75,7 @@ const projectsData = [
     description: "A modern personal portfolio website showcasing my skills, projects, and certifications. Built with Next.js for server-side rendering, Tailwind CSS for responsive design, and deployed as a fast, SEO-friendly, and professional platform to highlight my profile and work.",
     image: "/images/github-placeholder.png",
     tags: ["Next.js", "Tailwind CSS", "JavaScript"],
-    githubLink: "https://github.com/mayankrathod-mrr",
+    githubLink: "https://github.com/mayankrathod-mrr/PORTFOLIO-new",
   },
   {
     title: "Media Platform Simulation (Backend)",
