@@ -14,7 +14,6 @@ const Footer = () => {
           {/* Phone Number */}
           <div className="flex items-center space-x-2">
             <FaPhoneAlt />
-            {/* Corrected the href to use your actual number */}
             <a href="tel:+919322492711" className="hover:text-white transition-colors duration-300">
               +91 93224 92711 
             </a>
@@ -23,8 +22,8 @@ const Footer = () => {
           {/* Email Address */}
           <div className="flex items-center space-x-2">
             <FaEnvelope />
-            {/* Added your email with a mailto link */}
-            <a href="mayankrathod711@gmail.com" className="hover:text-white transition-colors duration-300">
+            {/* --- THIS IS THE CORRECTED LINE --- */}
+            <a href="mailto:mayankrathod711@gmail.com" className="hover:text-white transition-colors duration-300">
               mayankrathod711@gmail.com
             </a>
           </div>

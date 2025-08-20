@@ -4,10 +4,10 @@ const Resume = () => {
   return (
     <section id="resume" className="py-24 bg-white">
       <div className="container mx-auto px-6 text-center">
-        <h2 className="text-5xl font-bold text-gray-800 dark:text-black-100 mb-4">
+        <h2 className="text-5xl font-bold text-gray-800 mb-4">
           My Resume
         </h2>
-        <p className="text-lg text-gray-600 dark:text-black-300 mb-8 max-w-2xl mx-auto">
+        <p className="text-lg text-gray-600 mb-8 max-w-2xl mx-auto">
           Interested in the full details of my professional journey? You can download a PDF version of my resume for your convenience.
         </p>
         <a 

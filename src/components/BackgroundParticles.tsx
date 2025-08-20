@@ -50,13 +50,13 @@ const BackgroundParticles = () => {
       },
       particles: {
         color: {
-          value: "#1E40AF", // <-- DARKER BLUE for particles
+          value: "#1E40AF", // Darker blue for particles
         },
         links: {
-          color: "#1a53ff", // <-- DARKER BLUE for links
+          color: "#2563EB", // A complementary darker blue for links
           distance: 150,
           enable: true,
-          opacity: 0.5,
+          opacity: 0.4,
           width: 1,
         },
         move: {
@@ -66,7 +66,7 @@ const BackgroundParticles = () => {
             default: "bounce",
           },
           random: false,
-          speed: 2, // Slightly slower speed for a more professional feel
+          speed: 1.5, // Adjusted speed for a smoother feel
           straight: false,
         },
         number: {
@@ -83,7 +83,7 @@ const BackgroundParticles = () => {
           type: "circle",
         },
         size: {
-          value: { min: 2, max: 6 }, // <-- BIGGER particles
+          value: { min: 2, max: 6 }, // Bigger particles
         },
       },
       detectRetina: true,

@@ -12,7 +12,7 @@ type ProjectCardProps = {
   image: string;
   tags: string[];
   githubLink: string;
-  liveLink?: string; // Made liveLink optional
+  liveLink?: string; // <-- FIX: Made liveLink optional with a '?'
   isReversed?: boolean;
 };
 
@@ -21,6 +21,8 @@ const ProjectCard = ({ title, description, image, tags, githubLink, liveLink, is
 
   return (
     <div className={`flex flex-col ${flexDirection} items-center gap-8 md:gap-12`}>
+      
+      {/* Project Image */}
       <div className="w-full md:w-1/2">
         <div className="relative group bg-gray-100 rounded-lg shadow-lg p-8 h-full flex items-center justify-center">
           <Image
@@ -30,11 +32,12 @@ const ProjectCard = ({ title, description, image, tags, githubLink, liveLink, is
             height={400}
             className="object-contain max-h-48"
           />
+          {/* The overlay for links */}
           <div className="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-lg flex items-center justify-center space-x-6">
             <Link href={githubLink} target="_blank" className="text-white hover:text-blue-400">
               <FaGithub size={40} />
             </Link>
-            {/* The live link icon will only show if a liveLink is provided */}
+            {/* FIX: The live link icon will only show if a liveLink is provided */}
             {liveLink && (
               <Link href={liveLink} target="_blank" className="text-white hover:text-blue-400">
                 <FaExternalLinkAlt size={36} />
@@ -43,6 +46,8 @@ const ProjectCard = ({ title, description, image, tags, githubLink, liveLink, is
           </div>
         </div>
       </div>
+
+      {/* Project Details (Text) */}
       <div className="w-full md:w-1/2 text-center md:text-left">
         <h3 className="text-3xl font-bold mb-4 text-gray-800">{title}</h3>
         <div className="bg-white p-6 rounded-lg shadow-md mb-4">

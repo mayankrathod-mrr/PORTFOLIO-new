@@ -66,7 +66,7 @@ const deploymentAndTools = [
   { name: 'Postman', icon: <SiPostman size={48} className="text-orange-500" /> },
   { name: 'Git & GitHub', icon: <FaGithub size={48} className="text-gray-800" /> },
   { name: 'IntelliJ IDEA', icon: <SiIntellijidea size={48} className="text-purple-600" /> },
-  { name: 'VS Code', icon: <SiVsco size={48} className="text-sky-500" /> }, // <-- ADDED BACK
+  { name: 'VS Code', icon: <SiVsco size={48} className="text-sky-500" /> },
 ];
 
 const SkillCard = ({ name, icon }: { name: string, icon: React.ReactNode }) => (
@@ -95,7 +95,7 @@ const Skills = () => {
 
           {/* Backend Section */}
           <div>
-            <h3 className="text-3xl font-bold text-gray-700 mb-6 text-center md:text-left">Backend</h3>
+            <h3 className="text-3xl font-bold text-gray-700 mb-6 text-center md:text-left">⚙️ Backend</h3>
             <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
               {backendSkills.map((skill) => <SkillCard key={skill.name} {...skill} />)}
             </div>
@@ -103,7 +103,7 @@ const Skills = () => {
 
           {/* Databases Section */}
           <div>
-            <h3 className="text-3xl font-bold text-gray-700 mb-6 text-center md:text-left">Databases</h3>
+            <h3 className="text-3xl font-bold text-gray-700 mb-6 text-center md:text-left">💾 Databases</h3>
             <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
               {databaseSkills.map((skill) => <SkillCard key={skill.name} {...skill} />)}
             </div>
@@ -111,7 +111,7 @@ const Skills = () => {
 
           {/* Deployment, Tools & Testing Section */}
           <div>
-            <h3 className="text-3xl font-bold text-gray-700 mb-6 text-center md:text-left">Deployment & Tools</h3>
+            <h3 className="text-3xl font-bold text-gray-700 mb-6 text-center md:text-left">🛠️ Deployment & Tools</h3>
             <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
               {deploymentAndTools.map((skill) => <SkillCard key={skill.name} {...skill} />)}
             </div>
