@@ -1,39 +1,7 @@
 import React from 'react';
-// Importing all the necessary icons from different libraries within react-icons
-import {
-  FaHtml5,
-  FaCss3Alt,
-  FaJsSquare,
-  FaReact,
-  FaNodeJs,
-  FaJava,
-  FaGithub,
-  FaKey,
-  FaBootstrap,
-  FaDocker,
-  FaAws
-} from 'react-icons/fa';
-import {
-  SiNextdotjs,
-  SiExpress,
-  SiPostgresql,
-  SiMysql,
-  SiJsonwebtokens,
-  SiVsco,
-  SiOpenai,
-  SiSpringboot,
-  SiIntellijidea,
-  SiMongodb,
-  SiTypescript,
-  SiRedis,
-  SiPostman,
-  SiTailwindcss
-} from 'react-icons/si';
-import { GrTools } from "react-icons/gr";
+import { FaHtml5, FaCss3Alt, FaJsSquare, FaReact, FaNodeJs, FaJava, FaGithub, FaBootstrap, FaDocker, FaAws } from 'react-icons/fa';
+import { SiExpress, SiPostgresql, SiMysql, SiVsco, SiSpringboot, SiIntellijidea, SiMongodb, SiTypescript, SiRedis, SiPostman, SiTailwindcss } from 'react-icons/si';
 import { TbApi } from "react-icons/tb";
-
-
-// --- NEW, MORE DETAILED CATEGORIES ---
 
 const frontendSkills = [
   { name: 'HTML5', icon: <FaHtml5 size={48} className="text-orange-500" /> },
@@ -44,7 +12,6 @@ const frontendSkills = [
   { name: 'Tailwind CSS', icon: <SiTailwindcss size={48} className="text-teal-400" /> },
   { name: 'Bootstrap', icon: <FaBootstrap size={48} className="text-purple-600" /> },
 ];
-
 const backendSkills = [
   { name: 'Node.js', icon: <FaNodeJs size={48} className="text-green-500" /> },
   { name: 'Express.js', icon: <SiExpress size={48} className="text-gray-600" /> },
@@ -52,14 +19,12 @@ const backendSkills = [
   { name: 'Spring Boot', icon: <SiSpringboot size={48} className="text-green-600" /> },
   { name: 'REST APIs', icon: <TbApi size={48} className="text-gray-700" /> },
 ];
-
 const databaseSkills = [
     { name: 'MongoDB', icon: <SiMongodb size={48} className="text-green-600" /> },
     { name: 'PostgreSQL', icon: <SiPostgresql size={48} className="text-blue-700" /> },
     { name: 'MySQL', icon: <SiMysql size={48} className="text-blue-500" /> },
     { name: 'Redis', icon: <SiRedis size={48} className="text-red-600" /> },
 ];
-
 const deploymentAndTools = [
   { name: 'Docker', icon: <FaDocker size={48} className="text-sky-500" /> },
   { name: 'Cloud (AWS)', icon: <FaAws size={48} className="text-orange-400" /> },
@@ -83,33 +48,25 @@ const Skills = () => {
         <h2 className="text-5xl font-bold text-center text-gray-800 mb-16">
           My Tech Stack
         </h2>
-        
         <div className="space-y-12">
-          {/* Frontend Section */}
           <div>
             <h3 className="text-3xl font-bold text-gray-700 mb-6 text-center md:text-left">Frontend</h3>
             <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
               {frontendSkills.map((skill) => <SkillCard key={skill.name} {...skill} />)}
             </div>
           </div>
-
-          {/* Backend Section */}
           <div>
             <h3 className="text-3xl font-bold text-gray-700 mb-6 text-center md:text-left">⚙️ Backend</h3>
             <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
               {backendSkills.map((skill) => <SkillCard key={skill.name} {...skill} />)}
             </div>
           </div>
-
-          {/* Databases Section */}
           <div>
             <h3 className="text-3xl font-bold text-gray-700 mb-6 text-center md:text-left">💾 Databases</h3>
             <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
               {databaseSkills.map((skill) => <SkillCard key={skill.name} {...skill} />)}
             </div>
           </div>
-
-          {/* Deployment, Tools & Testing Section */}
           <div>
             <h3 className="text-3xl font-bold text-gray-700 mb-6 text-center md:text-left">🛠️ Deployment & Tools</h3>
             <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">

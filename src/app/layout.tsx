@@ -1,13 +1,13 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import BackgroundParticles from "@/components/BackgroundParticles"; // <-- Make sure it's imported
-import { ThemeProvider } from "@/providers/ThemeProvider";
+import BackgroundParticles from "@/components/BackgroundParticles";
+
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Your Portfolio", // You can change this
-  description: "My awesome portfolio", // You can change this
+  title: "Mayank Rathod's Portfolio",
+  description: "A passionate Full-Stack Developer.",
 };
 
 export default function RootLayout({
@@ -18,8 +18,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <BackgroundParticles /> {/* <-- It should be here */}
-        <div className="relative z-10">{children}</div> {/* <-- Children must be wrapped in a div */}
+        <BackgroundParticles />
+        <div className="relative z-10">{children}</div>
       </body>
     </html>
   );
