@@ -74,9 +74,9 @@ const projectsData = [
     title: "BSC AgriPreneur Website (Full Stack Project)",
     description: "Currently developing a real-world website for a BSc AgriPreneur business, integrating a Java Spring Boot backend with Next.js frontend. The project involves building scalable APIs, secure authentication, and a responsive UI. Designed to manage product listings, customer interactions, and business operations efficiently.",
     image: "/images/github-placeholder.png",
-    tags: ["MongoDB", "Express.js", "Node.js", "Next.js", "Docker", "REST API", "etc",],
+    tags: ["MongoDB", "Express.js", "Node.js", "Next.js", "Docker", "REST API", "etc"],
     githubLink: "https://github.com/mayankrathod-mrr",
-    liveLink: "https://bsc-agripreneur.vercel.app/" ,
+    liveLink: "https://bsc-agripreneur.vercel.app/",
   },
   {
     title: "Media Platform Simulation (Backend)",
@@ -96,7 +96,7 @@ const projectsData = [
     title: "Admin Panel",
     description: "A responsive admin dashboard with secure login, CRUD operations for users and products, and data management features like search and pagination. Built during my internship at Educron (Remote, Nagpur).",
     image: "/images/github-placeholder.png",
-    tags: ["PHP","MYSQL(Xampp)","HTML","CSS","Javascript",],
+    tags: ["PHP", "MYSQL(Xampp)", "HTML", "CSS", "Javascript"],
     githubLink: "https://github.com/mayankrathod-mrr/Admin-panel",
   },
 ];
