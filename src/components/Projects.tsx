@@ -70,12 +70,13 @@ const ProjectCard = ({ title, description, image, tags, githubLink, liveLink, is
 //  2. The Main Projects Section
 // ==================================================================
 const projectsData = [
-  {
-    title: "Personal Portfolio Website",
-    description: "A modern personal portfolio website showcasing my skills, projects, and certifications. Built with Next.js for server-side rendering, Tailwind CSS for responsive design, and deployed as a fast, SEO-friendly, and professional platform to highlight my profile and work.",
+   {
+    title: "BSC AgriPreneur Website (Full Stack Project)",
+    description: "Currently developing a real-world website for a BSc AgriPreneur business, integrating a Java Spring Boot backend with Next.js frontend. The project involves building scalable APIs, secure authentication, and a responsive UI. Designed to manage product listings, customer interactions, and business operations efficiently.",
     image: "/images/github-placeholder.png",
-    tags: ["Next.js", "Tailwind CSS", "JavaScript"],
-    githubLink: "https://github.com/mayankrathod-mrr/PORTFOLIO-new",
+    tags: ["MongoDB", "Express.js", "Node.js", "Next.js", "Docker", "REST API", "etc",],
+    githubLink: "https://github.com/mayankrathod-mrr",
+    liveLink: "https://bsc-agripreneur.vercel.app/" ,
   },
   {
     title: "Media Platform Simulation (Backend)",
@@ -97,13 +98,6 @@ const projectsData = [
     image: "/images/github-placeholder.png",
     tags: ["PHP","MYSQL(Xampp)","HTML","CSS","Javascript",],
     githubLink: "https://github.com/mayankrathod-mrr/Admin-panel",
-  },
-  {
-    title: "BSC AgriPreneur Website (Full Stack Project)",
-    description: "Currently developing a real-world website for a BSc AgriPreneur business, integrating a Java Spring Boot backend with Next.js frontend. The project involves building scalable APIs, secure authentication, and a responsive UI. Designed to manage product listings, customer interactions, and business operations efficiently.",
-    image: "/images/github-placeholder.png",
-    tags: ["Java", "Spring Boot", "Next.js", "React", "PostgreSQL", "Docker", "REST API", "etc",],
-    githubLink: "https://github.com/mayankrathod-mrr",
   },
 ];
 

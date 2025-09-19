@@ -1,6 +1,9 @@
+"use client"; // <-- This is the important update
+
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
+import { TypeAnimation } from 'react-type-animation'; // <-- This is also new
 
 const Hero = () => {
   return (
@@ -9,10 +12,24 @@ const Hero = () => {
         {/* Left Column (Text Content) */}
         <div className="text-center md:text-left">
           <h1 className="text-5xl md:text-7xl font-extrabold text-gray-800 leading-tight mb-4">
-            Hi, I&apos;m <span className="text-blue-500">Mayank Rathod</span>
+            Hi, I&apos;m{' '}
+            {/* --- THIS IS THE UPDATED PART --- */}
+            <TypeAnimation
+              sequence={[
+                'Mayank Rathod',
+                2000,
+                '',
+              ]}
+              wrapper="span"
+              speed={30}
+              repeat={Infinity}
+              cursor={true}
+              className="text-blue-500"
+            />
+            {/* ------------------------------- */}
           </h1>
           <p className="text-xl md:text-2xl text-gray-700 mb-8">
-            I&apos;m a passionate Java Backend & Full Stack Developer with expertise in Java, Spring Boot, Next.js, PostgreSQL, and Docker, focused on building scalable backend systems and modern full-stack applications.
+            I&apos;m a passionate MERN Stack Developer with expertise in Next.js, Node.js , Express.js , MongoDB and Docker, focused on building scalable backend systems and modern full-stack applications.
           </p>
           
           <div className="flex flex-col sm:flex-row items-center justify-center md:justify-start gap-4">
@@ -49,3 +66,4 @@ const Hero = () => {
 };
 
 export default Hero;
+
