@@ -18,7 +18,7 @@ const About = () => {
            My primary passion lies in Full Stack Development with the MERN stack (MongoDB, Express.js, React/Next.js, Node.js). I enjoy working with technologies like Next.js, MySQL, and Docker, and I'm always eager to explore new tools that can make applications faster, smarter, and more efficient.
           </p>
           <p className="mb-6">
-            I recently completed and deployed a full-stack web platform for the agripreneur sector on Vercel. This project allowed me to combine my backend expertise with frontend skills to deliver a practical, real-world solution.
+            I recently completed and deployed a full-stack web platform for the agripreneur sector on Vercel and backend on vercel. This project allowed me to combine my backend expertise with frontend skills to deliver a practical, real-world solution.
           </p>
           <p>
             Beyond coding, I'm passionate about continuous learning and enjoy taking on challenges that push me to grow as a developer. My long-term goal is to contribute to innovative software solutions that make an impact in people’s lives while advancing my career as a Full Stack Developer.

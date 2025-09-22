@@ -29,7 +29,7 @@ const Hero = () => {
             {/* ------------------------------- */}
           </h1>
           <p className="text-xl md:text-2xl text-gray-700 mb-8">
-            I&apos;m a passionate MERN Stack Developer with expertise in Next.js, Node.js , Express.js , MongoDB and Docker, focused on building scalable backend systems and modern full-stack applications.
+            I&apos;m a passionate MERN Stack Developer with expertise in Next.js, Node.js , Express.js , MongoDB . focused on building scalable backend systems and modern full-stack applications.
           </p>
           
           <div className="flex flex-col sm:flex-row items-center justify-center md:justify-start gap-4">
