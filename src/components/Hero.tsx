@@ -21,7 +21,7 @@ const Hero = () => {
                 '',
               ]}
               wrapper="span"
-              speed={30}
+              speed={1}
               repeat={Infinity}
               cursor={true}
               className="text-blue-500"

@@ -43,8 +43,6 @@ This project is a modern, responsive, and professional platform designed to show
 - Docker, AWS (Cloud & DevOps)  
 - VS Code, IntelliJ IDEA, Postman  
 
----
-
 ## 🚀 Getting Started
 
 Follow these steps to run locally:
