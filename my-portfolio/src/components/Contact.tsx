@@ -10,7 +10,7 @@ const Contact = () => {
           Get In Touch
         </h2>
         <p className="text-lg text-gray-600 mb-8 max-w-2xl mx-auto">
-          I&apos;m currently open to new opportunities and collaborations. If you have a project in mind or just want to say hello, feel free to reach out!
+          I&apos;m currently open to new opportunities and collaborations. If you have a project in mind or just want to say hello, feel free to reach out .!
         </p>
         <div className="flex justify-center items-center space-x-8">
           <Link href="https://github.com/mayankrathod-mrr" target="_blank" className="text-gray-600 hover:text-blue-500 transition-colors duration-300">
